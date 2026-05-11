@@ -1,0 +1,188 @@
+{
+  "best_models": {
+    "Texas": "SARIMA",
+    "Pennsylvania": "SARIMA",
+    "Michigan": "XGBoost",
+    "Illinois": "SARIMA",
+    "Ohio": "SARIMA",
+    "North Carolina": "SARIMA",
+    "Georgia": "SARIMA",
+    "California": "SARIMA",
+    "New York": "SARIMA",
+    "Florida": "XGBoost"
+  },
+  "scores": {
+    "Texas": {
+      "best_model": "SARIMA",
+      "scores": {
+        "SARIMA": {
+          "mae": 1407.97,
+          "rmse": 1645.17
+        },
+        "XGBoost": {
+          "mae": 2704.56,
+          "rmse": 3204.48
+        }
+      }
+    },
+    "Pennsylvania": {
+      "best_model": "SARIMA",
+      "scores": {
+        "SARIMA": {
+          "mae": 1777.78,
+          "rmse": 1950.01
+        },
+        "XGBoost": {
+          "mae": 2200.7,
+          "rmse": 2596.17
+        }
+      }
+    },
+    "Michigan": {
+      "best_model": "XGBoost",
+      "scores": {
+        "SARIMA": {
+          "mae": 3648.98,
+          "rmse": 4236.68
+        },
+        "XGBoost": {
+          "mae": 2315.2,
+          "rmse": 2661.32
+        }
+      }
+    },
+    "Illinois": {
+      "best_model": "SARIMA",
+      "scores": {
+        "SARIMA": {
+          "mae": 408.53,
+          "rmse": 475.17
+        },
+        "XGBoost": {
+          "mae": 1665.68,
+          "rmse": 1944.09
+        }
+      }
+    },
+    "Ohio": {
+      "best_model": "SARIMA",
+      "scores": {
+        "SARIMA": {
+          "mae": 2229.38,
+          "rmse": 2909.61
+        },
+        "XGBoost": {
+          "mae": 4604.76,
+          "rmse": 5809.12
+        }
+      }
+    },
+    "North Carolina": {
+      "best_model": "SARIMA",
+      "scores": {
+        "SARIMA": {
+          "mae": 1499.47,
+          "rmse": 1857.79
+        },
+        "XGBoost": {
+          "mae": 1734.67,
+          "rmse": 2014.8
+        }
+      }
+    },
+    "Georgia": {
+      "best_model": "SARIMA",
+      "scores": {
+        "SARIMA": {
+          "mae": 799.97,
+          "rmse": 980.3
+        },
+        "XGBoost": {
+          "mae": 1227.86,
+          "rmse": 1387.61
+        }
+      }
+    },
+    "California": {
+      "best_model": "SARIMA",
+      "scores": {
+        "SARIMA": {
+          "mae": 1409.78,
+          "rmse": 2146.07
+        },
+        "XGBoost": {
+          "mae": 3157.97,
+          "rmse": 3992.58
+        }
+      }
+    },
+    "New York": {
+      "best_model": "SARIMA",
+      "scores": {
+        "SARIMA": {
+          "mae": 1378.0,
+          "rmse": 1756.81
+        },
+        "XGBoost": {
+          "mae": 4073.72,
+          "rmse": 5029.09
+        }
+      }
+    },
+    "Florida": {
+      "best_model": "XGBoost",
+      "scores": {
+        "SARIMA": {
+          "mae": 1180.74,
+          "rmse": 1516.43
+        },
+        "XGBoost": {
+          "mae": 951.08,
+          "rmse": 1210.91
+        }
+      }
+    }
+  },
+  "ensemble_weights": {
+    "Texas": {
+      "SARIMA": 0.6608,
+      "XGBoost": 0.3392
+    },
+    "Pennsylvania": {
+      "SARIMA": 0.5711,
+      "XGBoost": 0.4289
+    },
+    "Michigan": {
+      "SARIMA": 0.3858,
+      "XGBoost": 0.6142
+    },
+    "Illinois": {
+      "SARIMA": 0.8036,
+      "XGBoost": 0.1964
+    },
+    "Ohio": {
+      "SARIMA": 0.6663,
+      "XGBoost": 0.3337
+    },
+    "North Carolina": {
+      "SARIMA": 0.5203,
+      "XGBoost": 0.4797
+    },
+    "Georgia": {
+      "SARIMA": 0.586,
+      "XGBoost": 0.414
+    },
+    "California": {
+      "SARIMA": 0.6504,
+      "XGBoost": 0.3496
+    },
+    "New York": {
+      "SARIMA": 0.7411,
+      "XGBoost": 0.2589
+    },
+    "Florida": {
+      "SARIMA": 0.444,
+      "XGBoost": 0.556
+    }
+  }
+}

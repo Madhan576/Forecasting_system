@@ -1,0 +1,34 @@
+{
+  "states": [
+    "California",
+    "Florida",
+    "Georgia",
+    "Illinois",
+    "Michigan",
+    "New York",
+    "North Carolina",
+    "Ohio",
+    "Pennsylvania",
+    "Texas"
+  ],
+  "forecast_steps": 8,
+  "val_weeks": 8,
+  "models_trained": [
+    "SARIMA",
+    "Prophet",
+    "XGBoost",
+    "LSTM"
+  ],
+  "best_models": {
+    "Texas": "SARIMA",
+    "Pennsylvania": "SARIMA",
+    "Michigan": "XGBoost",
+    "Illinois": "SARIMA",
+    "Ohio": "SARIMA",
+    "North Carolina": "SARIMA",
+    "Georgia": "SARIMA",
+    "California": "SARIMA",
+    "New York": "SARIMA",
+    "Florida": "XGBoost"
+  }
+}
